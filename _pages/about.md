@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I did my B.Engg in Electrical Engineering from National University of Sciences and Technology (NUST). In this duration, I met some incredible people, whom I worked with to learn both hardware and software development. 
+I did my B.Engg in Electrical Engineering from National University of Sciences and Technology (NUST) in Pakistan. In this duration, I met some incredible people I worked to learn both hardware and software development. 
 
-I worked as a Research Intern at Signal Processing and Machine Learning Lab at NUST, where I worked on development of a deep learning based tool for highlighting anamoulous keratin pearal in skin tissues. 
+I worked as a Research Intern at Signal Processing and Machine Learning Lab at NUST, where I worked on development of a deep learning based tool for highlighting anomalous keratin pearl in skin tissues.
 
-I am also a Teaching Assistant at AI Lounge, where I have collaborated with amazing people to develop teaching material for workshop on TinyML.
+I am also a Teaching Assistant at AI Lounge, where I have collaborated with Dr. Hassan Aqeel at Aston University and Dr. S.A. Zaidi at University of Leeds to develop teaching material for a workshop on TinyML.
 
 As part of my engineering design project, I worked with System-on-Chip Lab and Integrated Circuits Design Lab at NUST to develop a vector extension based on RISC-V Vector Instruction Set Architecture.
 
