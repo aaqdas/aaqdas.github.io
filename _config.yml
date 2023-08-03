@@ -85,8 +85,8 @@ author:
   bio              : "Electrical Engineer | NUST '23 | Advancing AI-Hardware Integration for a Smarter Future"
   location         : "Islamabad, Pakistan"
   employer         :
-  pubmed           : ""
-  googlescholar    : ""
+  pubmed           : 
+  googlescholar    : 
   email            : "aaqdas.ce@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,9 +102,9 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : ""
-  pinterest        :
+  linkedin         : "ali-aqdas"
+  orcid            :  
+  pinterest        : 
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
