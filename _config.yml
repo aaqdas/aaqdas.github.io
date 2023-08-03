@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ali Aqdas"
+title                    : "Ali's Homepage"
 title_separator          : "-"
 name                     : &name "Ali Aqdas"
 description              : &description "Electrical Engineer | NUST '23 | Advancing AI-Hardware Integration for a Smarter Future"
