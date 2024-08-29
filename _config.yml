@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ali's Homepage"
 title_separator          : "-"
 name                     : &name "Ali Aqdas"
-description              : &description "Electrical Engineer | NUST '23 | Advancing AI-Hardware Integration for a Smarter Future"
+description              : &description " Purdue CS | NUST EE'23 | Advancing AI-Hardware Integration for a Smarter Future"
 url                      : https://aaqdas.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "aaqdas/aaqdas.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Ali Aqdas"
   avatar           : "profile.png"
-  bio              : "Electrical Engineer | NUST '23 | Advancing AI-Hardware Integration for a Smarter Future"
-  location         : "Islamabad, Pakistan"
+  bio              : " Purdue CS | NUST EE'23 | Advancing AI-Hardware Integration for a Smarter Future"
+  location         : "West Lafayette, IN"
   employer         :
   pubmed           : 
   googlescholar    : 
