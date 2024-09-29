@@ -8,15 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I did my B.Engg in Electrical Engineering from National University of Sciences and Technology (NUST) in Pakistan. In this duration, I met some incredible people I worked with to learn both hardware and software development. 
+I am a Graduate Researcher at Purdue University. I am applying my hardware-software background in Networks and Systems research with Dr. Muhammad Shahbaz. 
 
-I worked as a Research Intern at Signal Processing and Machine Learning Lab at NUST, where I worked on development of a deep learning based tool for highlighting anomalous keratin pearl in skin tissues.
+I did my B.Engg in Electrical Engineering from National University of Sciences and Technology (NUST) in Pakistan, during which I met some incredible people I worked with to learn both hardware and software development. As part of my engineering design project, I worked with System-on-Chip Lab and Integrated Circuits Design Lab at NUST to develop a vector extension based on RISC-V Vector Instruction Set Architecture. A research article based on the work is under process.
 
-I am also a Teaching Assistant at AI Lounge, where I have collaborated with Dr. Hassan Aqeel at Aston University and Dr. S.A. Zaidi at University of Leeds to develop teaching material for a workshop on TinyML.
+I previosuly worked as a Research Intern at Signal Processing and Machine Learning Lab at NUST, where I worked on development of a deep learning based tool for highlighting anomalous keratin pearl in skin tissues.
 
-As part of my engineering design project, I worked with System-on-Chip Lab and Integrated Circuits Design Lab at NUST to develop a vector extension based on RISC-V Vector Instruction Set Architecture. I have recently submitted a manuscript to present my work, which is currently under the review process.
+I was also a Teaching Assistant at AI Lounge, where I have collaborated with Dr. Hassan Aqeel at Aston University and Dr. S.A. Zaidi at University of Leeds to develop teaching material for a workshop on TinyML.
 
-I am currently studying about computer networks independently, which will broaden my knowledge and help me find areas of interdisciplinary research. A huge shoutout to Larry Peterson and Bruce Davie for their open-source book "Computer Networks: A Systems Approach" which has been my central source in this journey.
+
+
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
