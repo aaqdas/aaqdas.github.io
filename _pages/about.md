@@ -10,7 +10,7 @@ redirect_from:
 
 Ahoy! 
 
-I am a First-Year Doctoral Student at Purdue. I explore microachitectural vulunerabilities and develop mitgitation mechanisms to make your hardware secure from microarchitectural attacks. I am focused on Compute Express Link (CXL) security in particular.
+I am a First-Year Doctoral Student at Purdue. I explore microachitectural vulnerabilities and develop mitigation mechanisms to make your hardware secure from microachitectural attacks. I am focused on Compute Express Link (CXL) security in particular.
 
 I did my B.Engg in Electrical Engineering from National University of Sciences and Technology (NUST) in Pakistan. In this duration, I met some incredible people I worked with to learn both hardware and software development. In that time, I worked as a Research Intern at Signal Processing and Machine Learning Lab at NUST, where I worked on development of a deep learning based tool for highlighting anomalous keratin pearl in skin tissues. I also assisted at AI Lounge, where I have collaborated with Dr. Hassan Aqeel from Aston University and Dr. S.A. Zaidi at University of Leeds to develop teaching material for a workshop on TinyML. As part of my engineering design project, I worked with System-on-Chip Lab and Integrated Circuits Design Lab at NUST to develop a vector extension based on RISC-V Vector Instruction Set Architecture. I have recently submitted a manuscript to present my work, which is currently under the review process.
 
