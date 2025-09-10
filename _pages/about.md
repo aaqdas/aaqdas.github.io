@@ -1,18 +1,30 @@
 ---
 permalink: /
-title: " About"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+<!-- ### **About Me**   -->
 
-Ahoy! 
+I am a second-year Ph.D. student at Purdue University, working in the SecArch Lab under the guidance of Dr. Kazem Taram. My research focuses on identifying and mitigating microarchitectural vulnerabilities to enhance hardware security against microarchitectural attacks. Currently, I am particularly interested in exploring the security aspects of Compute Express Link (CXL) technology.
 
-I am a First-Year Doctoral Student at Purdue. I explore microachitectural vulnerabilities and develop mitigation mechanisms to make your hardware secure from microachitectural attacks. I am focused on Compute Express Link (CXL) security in particular.
+Feel free to reach out to me for collaborations, discussions, or any questions related to my research. I am always excited to engage with fellow researchers and enthusiasts in the field of hardware security and beyond.
 
-I did my B.Engg in Electrical Engineering from National University of Sciences and Technology (NUST) in Pakistan. In this duration, I met some incredible people I worked with to learn both hardware and software development. In that time, I worked as a Research Intern at Signal Processing and Machine Learning Lab at NUST, where I worked on development of a deep learning based tool for highlighting anomalous keratin pearl in skin tissues. I also assisted at AI Lounge, where I have collaborated with Dr. Hassan Aqeel from Aston University and Dr. S.A. Zaidi at University of Leeds to develop teaching material for a workshop on TinyML. As part of my engineering design project, I worked with System-on-Chip Lab and Integrated Circuits Design Lab at NUST to develop a vector extension based on RISC-V Vector Instruction Set Architecture. I have recently submitted a manuscript to present my work, which is currently under the review process.
+You can more about me [here](https://aaqdas.github.io/files/CV.pdf).
+<!-- <details>
+<summary>Want to know more</summary> -->
+
+<!-- I earned my B.Eng. in Electrical Engineering from the National University of Sciences and Technology (NUST) in Pakistan. During this time, I had the privilege of collaborating with remarkable individuals, which allowed me to gain experience in both hardware and software development.  
+
+For my engineering design project, I worked with the System-on-Chip Lab and the Integrated Circuits Design Lab at NUST to develop a vector extension based on the RISC-V Vector Instruction Set Architecture. This work has culminated in a manuscript that I recently submitted for review.  
+
+As a Research Intern at the Signal Processing and Machine Learning Lab at NUST, I contributed to the development of a deep learning-based tool for detecting anomalous keratin pearls in skin tissue samples. Additionally, I assisted at AI Lounge, where I collaborated with Dr. Hassan Aqeel (Aston University) and Dr. S.A. Zaidi (University of Leeds) to create teaching materials for a workshop on TinyML.   -->
+
+<!-- </details> -->
+
 
 <!-- I am currently studying about computer networks independently, which will broaden my knowledge and help me find areas of interdisciplinary research. A huge shoutout to Larry Peterson and Bruce Davie for their open-source book "Computer Networks: A Systems Approach" which has been my central source in this journey. -->
 
