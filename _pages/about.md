@@ -14,8 +14,6 @@ I am a second-year Ph.D. student at Purdue University, working in the SecArch La
 Feel free to reach out to me for collaborations, discussions, or any questions related to my research. I am always excited to engage with fellow researchers and enthusiasts in the field of hardware security and beyond.
 
 You can more about me [here](https://aaqdas.github.io/files/CV.pdf).
-<!-- <details>
-<summary>Want to know more</summary> -->
 
 <!-- I earned my B.Eng. in Electrical Engineering from the National University of Sciences and Technology (NUST) in Pakistan. During this time, I had the privilege of collaborating with remarkable individuals, which allowed me to gain experience in both hardware and software development.  
 
