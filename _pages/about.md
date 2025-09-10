@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<!-- ### **About Me**   -->
+### **About Me**  
 
 I am a second-year Ph.D. student at Purdue University, working in the SecArch Lab under the guidance of Dr. Kazem Taram. My research focuses on identifying and mitigating microarchitectural vulnerabilities to enhance hardware security against microarchitectural attacks. Currently, I am particularly interested in exploring the security aspects of Compute Express Link (CXL) technology.
 
