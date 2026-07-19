@@ -1,9 +1,10 @@
 # main links links
 main:
-  # - title: "Publications"
-  #   url: /publications/
-  - title: "Qualities of A Good Researcher"
-    url: /qualities-of-a-good-researcher/
+  - title: "Publications"
+    url: /publications/
+  # - title: "Qualities of A Good Researcher"
+  #   url: /qualities-of-a-good-researcher/
+
   # - title: "Talks"
   #   url: /talks/    
 

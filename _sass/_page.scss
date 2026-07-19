@@ -51,12 +51,26 @@
 .page__content {
 
   h2 {
-    padding-bottom: 0.5em;
+    margin-top: 2.4rem;
+    padding-bottom: 0.7rem;
     border-bottom: 1px solid $border-color;
+  }
+
+  h3 {
+    margin-top: 1.9rem;
   }
 
   p, li, dl {
     font-size: 1em;
+    line-height: 1.7;
+  }
+
+  ul,
+  ol,
+  blockquote,
+  table {
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
   }
 
   /* paragraph indents */

@@ -13,7 +13,10 @@ body {
   padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.6;
+  background: $body-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -22,35 +25,37 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 0.5em;
-  line-height: 1.2;
+  margin: 2em 0 0.55em;
+  line-height: 1.15;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: $primary-color;
 }
 
 h1 {
   margin-top: 0;
-  font-size: $type-size-3;
+  font-size: $type-size-2;
 }
 
 h2 {
-  font-size: $type-size-4;
+  font-size: $type-size-3;
 }
 
 h3 {
-  font-size: $type-size-5;
+  font-size: $type-size-4;
 }
 
 h4 {
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 }
 
 h5 {
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 }
 
 h6 {
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 }
 
 small, .small {
@@ -58,7 +63,8 @@ small, .small {
 }
 
 p {
-  margin-bottom: 1.3em;
+  margin-bottom: 1.15em;
+  line-height: 1.65;
 }
 
 u,
@@ -164,12 +170,12 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.65em;
 }
 
 li ul,
 li ol {
-  margin-top: 0.5em;
+  margin-top: 0.65em;
 }
 
 /*
@@ -312,4 +318,165 @@ nav {
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+/* ==========================================================================
+   GLOBAL SITE OVERRIDES (WIDESCREEN, COLORS, NAVIGATION HOVER PILLS)
+   ========================================================================== */
+
+/* --- Layout & Width Architecture --- */
+@media (min-width: 64em) {
+  #main {
+    max-width: 1200px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .page {
+    flex-grow: 1 !important;
+    max-width: calc(100% - 260px) !important;
+    padding-left: 40px !important;
+    padding-right: 0 !important;
+  }
+  .page__content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+/* --- Premium Typography & Canvas Colors --- */
+body {
+  background-color: #ffffff !important;
+}
+.page__content, p, li, dt, dd {
+  color: #1e293b !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #0f172a !important;
+}
+
+/* --- Interactive Anchors --- */
+a {
+  color: #0256cc !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #0284c7 !important;
+  text-decoration: underline !important;
+}
+
+/* ==========================================================================
+   ULTIMATE MASTHEAD & NAVIGATION OVERHAUL
+   ========================================================================== */
+
+/* 1. Force container to display link items uniformly */
+.masthead__menu,
+.greedy-nav {
+  position: relative !important;
+  overflow: visible !important;
+}
+
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: static !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 8px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  max-width: none !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.greedy-nav .visible-links li {
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* Eliminate framework fallback dropdown trigger — nothing left to toggle */
+.greedy-nav button {
+  display: none !important;
+}
+
+/* 2. KILL THE ANIMATED UNDERLINE PSEUDO-ELEMENTS */
+html body .masthead__menu-item a::before,
+html body .masthead__menu-item a::after,
+html body .greedy-nav a::before,
+html body .greedy-nav a::after {
+  display: none !important;
+  content: "" !important;
+  background: transparent !important;
+}
+
+/* Strip all other legacy shadows and borders, and override global text-decoration */
+html body .masthead a,
+html body .masthead a:hover,
+html body .greedy-nav a,
+html body .greedy-nav a:hover,
+html body .masthead__menu-item a,
+html body .masthead__menu-item a:hover {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* 3. Link geometry — plain text, no pill background */
+html body .greedy-nav .visible-links a,
+html body .greedy-nav .hidden-links a {
+  display: inline-block !important;
+  padding: 0.5em 0.9em !important;
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  color: #1e293b !important;
+  background: transparent !important;
+  transition: font-weight 0.15s ease, color 0.15s ease !important;
+}
+
+/* Hover state: bold text, no background */
+html body .greedy-nav .visible-links a:hover,
+html body .greedy-nav .hidden-links a:hover {
+  background-color: transparent !important;
+  color: #0f172a !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+/* 4. Active state: bold dark block background to indicate current page */
+html body .greedy-nav .visible-links a.active,
+html body .greedy-nav .visible-links a[aria-current="page"],
+html body .greedy-nav .visible-links .current a,
+html body .greedy-nav .visible-links .current_page_item a,
+html body .greedy-nav .visible-links li.current a,
+html body .greedy-nav .visible-links li.active a {
+  background-color: #0f172a !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Kill leftover dropdown-panel decoration now that hidden-links is always inline */
+.greedy-nav .hidden-links::before,
+.greedy-nav .hidden-links::after {
+  display: none !important;
+  content: none !important;
+}
+
+.greedy-nav .hidden-links li {
+  border-bottom: none !important;
+}
+
+.greedy-nav {
+  background: transparent !important;
+  min-width: 0 !important;
 }

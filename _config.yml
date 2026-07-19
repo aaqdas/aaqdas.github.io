@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ali's Homepage"
+title                    : "HOME"
 title_separator          : "-"
 name                     : &name "Ali Aqdas"
 description              : &description " Purdue CS | NUST EE'23 | Advancing AI-Hardware Integration for a Smarter Future"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Ali Aqdas"
   avatar           : "profile.png"
-  bio              : " Purdue CS | NUST EE'23 | Advancing AI-Hardware Integration for a Smarter Future"
+  bio              : "Security, Reliability and Correctness of Systems"
   location         : "West Lafayette, IN"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : "aaqdas.ce@gmail.com"
+  email            : "aaqdas@purdue.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Indiana/Indianapolis # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

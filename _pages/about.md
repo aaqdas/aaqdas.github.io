@@ -7,64 +7,113 @@ redirect_from:
   - /about/
   - /about.html
 ---
-### **About Me**  
 
-I am a second-year Ph.D. student at Purdue University, working in the SecArch Lab under the guidance of Dr. Kazem Taram. My research focuses on identifying and mitigating microarchitectural vulnerabilities to enhance hardware security against microarchitectural attacks. Currently, I am particularly interested in exploring the security aspects of Compute Express Link (CXL) technology.
+<!-- <style>
+  /* --- Layout & Width Architecture --- */
+  @media (min-width: 64em) {
+    #main {
+      max-width: 1200px !important;
+      display: flex !important;
+      justify-content: space-between !important;
+    }
+    .page {
+      flex-grow: 1 !important;
+      max-width: calc(100% - 260px) !important;
+      padding-left: 40px !important;
+      padding-right: 0 !important;
+    }
+    .page__content {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+  }
 
-Feel free to reach out to me for collaborations, discussions, or any questions related to my research. I am always excited to engage with fellow researchers and enthusiasts in the field of hardware security and beyond.
+  /* --- Premium Typography & Canvas Colors --- */
+  body {
+    background-color: #ffffff !important;
+  }
+  .page__content, p, li, dt, dd {
+    color: #1e293b !important;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #0f172a !important;
+  }
 
-You can more about me [here](https://aaqdas.github.io/files/CV.pdf).
+  /* --- Interactive Anchors --- */
+  a {
+    color: #0256cc !important;
+    text-decoration: none !important;
+  }
+  a:hover {
+    color: #0284c7 !important;
+    text-decoration: underline !important;
+  }
 
-<!-- I earned my B.Eng. in Electrical Engineering from the National University of Sciences and Technology (NUST) in Pakistan. During this time, I had the privilege of collaborating with remarkable individuals, which allowed me to gain experience in both hardware and software development.  
+  /* --- Premium Masthead Navigation Pills --- */
+  .greedy-nav a,
+  .greedy-nav a:hover,
+  .greedy-nav a:focus,
+  .visible-links a,
+  .visible-links a:hover {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+  }
 
-For my engineering design project, I worked with the System-on-Chip Lab and the Integrated Circuits Design Lab at NUST to develop a vector extension based on the RISC-V Vector Instruction Set Architecture. This work has culminated in a manuscript that I recently submitted for review.  
+  .greedy-nav .visible-links a {
+    padding: 0.5em 0.8em !important;
+    border-radius: 6px !important;
+    transition: background-color 0.2s ease, color 0.2s ease !important;
+  }
 
-As a Research Intern at the Signal Processing and Machine Learning Lab at NUST, I contributed to the development of a deep learning-based tool for detecting anomalous keratin pearls in skin tissue samples. Additionally, I assisted at AI Lounge, where I collaborated with Dr. Hassan Aqeel (Aston University) and Dr. S.A. Zaidi (University of Leeds) to create teaching materials for a workshop on TinyML.   -->
+  .greedy-nav .visible-links a:hover {
+    background-color: #f1f5f9 !important;
+    color: #0f172a !important;
+    text-decoration: none !important;
+  }
 
-<!-- </details> -->
+  /* --- Clean Announcement Box --- */
+  blockquote {
+    background: #f8fafc !important;
+    border-left: 4px solid #0f172a !important;
+    padding: 1.2em 1.5em !important;
+    font-style: normal !important;
+    border-radius: 0 8px 8px 0;
+    margin: 1.5em 0 !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+  }
+  blockquote p {
+    color: #334155 !important;
+    margin: 0 !important;
+    font-weight: 500 !important;
 
+  /* --- Active/Current Tab Highlight --- */
+  .greedy-nav .visible-links a.active,
+  .greedy-nav .visible-links a[aria-current="page"],
+  .greedy-nav .visible-links .current a,
+  .greedy-nav .visible-links .current_page_item a {
+    background-color: #0f172a !important; /* Premium dark slate background for the active page */
+    color: #ffffff !important;            /* High contrast white text for maximum visibility */
+    font-weight: 600 !important;
+    text-decoration: none !important;
+  }
+</style> -->
 
-<!-- I am currently studying about computer networks independently, which will broaden my knowledge and help me find areas of interdisciplinary research. A huge shoutout to Larry Peterson and Bruce Davie for their open-source book "Computer Networks: A Systems Approach" which has been my central source in this journey. -->
+<h1 style="font-size: 2.8em; margin-top: 0; margin-bottom: 0.2em; font-weight: 800; letter-spacing: -0.03em;">Hi!</h1>
 
+> 🔍 **Looking for Opportunities:** I am actively seeking microarchitecture, systems, and security internship roles for Summer 2027.
 
+I am a Computer Science Ph.D. student at Purdue University, advised by Dr. Kazem Taram in the SecArch Lab. My research focuses on **hardware security** and **microarchitecture**, with specific expertise in identifying **microarchitectural vulnerabilities**, conducting **side-channel analysis**, and engineering **protocol-level mitigations** for **Compute Express Link (CXL)** architectures and disaggregated memory systems. I am open to industry R&D collaborations, technical discussions, and advanced systems engineering opportunities.
 
-<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
+<hr>
+## 📰 Latest News
 
-<!-- A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+<!-- Added max-height, overflow-y, and a bit of right padding so text doesn't hug the scrollbar -->
+<div style="margin-top: 1.5em; max-height: 300px; overflow-y: auto; padding-right: 10px;">
+  {% for item in site.data.news %}
+    <div style="display: flex; margin-bottom: 1em; align-items: flex-start;">
+      <div style="min-width: 90px; font-weight: bold; color: #5b616a; flex-shrink: 0;">{{ item.date }}</div>
+      <div style="flex-grow: 1; padding-left: 10px;">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+    </div>
+  {% endfor %}
+</div>
