@@ -7,6 +7,7 @@ date: 2026-07-07
 venue: 'MICRO'
 authors: '<b>Ali Aqdas</b>, Zheng Zhang, Yue Pan, Zixuan Wang, Tajana Rosing, Jishen Zhao and Kazem Taram'
 paperurl: 'https://mktrm.github.io/files/cxleak-micro26.pdf'
+link: 'https://mktrm.github.io/files/cxleak-micro26.pdf'
 citation: ''
 ---
 <!-- This paper is about the number 1. The number 2 is left for future work.
