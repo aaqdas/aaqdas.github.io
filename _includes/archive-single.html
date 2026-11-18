@@ -27,7 +27,9 @@
     {% endif %}
 
     <h3 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
+      {% if post.collection == 'publications' %}
+        {{ title }}
+      {% elsif post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
@@ -58,7 +60,15 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl %}
+    {% if post.collection == 'publications' %}
+      {% assign bibid = post.title | slugify %}
+      <p class="publication-links">
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">[pdf]</a>{% endif %}
+        {% if post.bibtex %}<a href="#bibtex-{{ bibid }}" onclick="var b=document.getElementById('bibtex-{{ bibid }}'); b.style.display=(b.style.display=='block'?'none':'block'); return false;">[citation]</a>{% endif %}
+        {% if post.artifacturl %}<a href="{{ post.artifacturl }}">[artifact]</a>{% endif %}
+      </p>
+      {% if post.bibtex %}<pre id="bibtex-{{ bibid }}" class="bibtex-box" style="display:none; margin-top:0.5rem; padding:0.75rem; background:#f7f7f7; color:#333; border:1px solid #ddd; border-radius:4px; font-size:0.72em; line-height:1.4; white-space:pre-wrap; overflow-x:auto;">{{ post.bibtex | strip }}</pre>{% endif %}
+    {% elsif post.citation and post.paperurl %}
       <p> {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% elsif post.citation %}
       <p> {{ post.citation }} </p>
